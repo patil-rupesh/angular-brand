@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
+
+  receiveMessage(event){
+  console.log(event);
+  this.name=event;
+  }  
 }

@@ -1,0 +1,5 @@
+<h1>Hello {{name}}!</h1>
+<ul>
+  <li *ngFor="let element of array">
+  {{element.code}},{{element.name}} <button type="button" (click)="removeElement(index)">remove</button></li>
+</ul>
