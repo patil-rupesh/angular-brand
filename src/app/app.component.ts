@@ -8,8 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent  {
   name = 'Angular';
 
-  receiveMessage(event){
+array=[{code:'9',name:'good'},{code:'10',name:'great'},{code:'11',name:'fine'},{code:'12',name:'very good'}];
+
+  receiveElement($event){
   console.log(event);
-  this.name=event;
+  this.array.sl;
   }  
 }
